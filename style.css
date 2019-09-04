@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    color: white;
+}
+
+.form-background{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.header{
+    background-size: cover;
+    height: 100vh;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-start{
+     /* background-image: url('météo.jpg'); */
+}
+
+.header-automne{
+    background-image: url('automne.jpg');
+}
+
+.header-hivers{
+    background-image: url('hiver.jpg');
+}
+
+.header-pringtemps{
+    background-image: url('printemps.jpg');
+}
+
+.header-été{
+    background-image: url('ete.jpg');
+}
+
+.form-group{
+    width: 300px;
+}
+
+#send{
+    width: 100%;
+}
+
+.btn-default{
+    border: 1px solid gray;
+}
+
+#result h1{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: white;
+    font-size: 56px;
+    text-align: center;
+
+}
