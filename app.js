@@ -10,7 +10,7 @@ const convertToCelcius = (temperatureInKelvin) => {
 };
 
 const getWeather = (ville) => {
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ville}&APPID=d578d6888b57e79f878b7d5bf8517065`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ville}&APPID=d578d6888b57e79f878b7d5bf8517065`)
     .then(response => response.json())
     .then((data) => {
       console.log(data);
